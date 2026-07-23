@@ -1,0 +1,81 @@
+.shieldPh {
+  background: repeating-linear-gradient(45deg, #e6e6e6, #e6e6e6 6px, #f4f4f4 6px, #f4f4f4 12px);
+  border: 1px solid #cfcfcf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a8a8a;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  line-height: 1.2;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.shieldPhLight {
+  background: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.14),
+    rgba(255, 255, 255, 0.14) 8px,
+    rgba(255, 255, 255, 0.05) 8px,
+    rgba(255, 255, 255, 0.05) 16px
+  );
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.55);
+  font-family: "Courier New", monospace;
+  text-align: center;
+  line-height: 1.2;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.imgPh {
+  background: repeating-linear-gradient(135deg, #e6e6e6, #e6e6e6 10px, #f4f4f4 10px, #f4f4f4 20px);
+  border: 1px solid #cfcfcf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8a8a8a;
+  font-family: "Courier New", monospace;
+  text-align: center;
+  line-height: 1.4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.wordmarkRow {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.wordmarkText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.wordmarkTextLine {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.cpvRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cpvText {
+  font-weight: 600;
+  color: var(--ink-gray);
+  letter-spacing: 0.01em;
+}
+
+.goldRule {
+  background: var(--accent-gold);
+}

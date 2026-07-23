@@ -1,0 +1,120 @@
+.page {
+  width: 816px;
+  min-height: 1056px;
+  background: var(--white);
+  font-family: var(--font-body);
+  color: var(--ink-gray);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 44px 64px 24px 64px;
+  border-bottom: 3px solid var(--brand-blue);
+}
+.docKicker {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
+.body {
+  padding: 44px 64px 0 64px;
+  flex: 1;
+}
+.eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin: 0 0 12px 0;
+}
+.offerTitle {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 8px 0;
+  color: var(--ink-gray);
+  max-width: 640px;
+  text-wrap: pretty;
+}
+.validity {
+  font-size: 14px;
+  color: #8a8a8a;
+  margin: 0 0 24px 0;
+}
+.offerDesc {
+  font-size: 15.5px;
+  line-height: 1.6;
+  color: var(--ink-gray);
+  opacity: 0.88;
+  max-width: 640px;
+  margin: 0 0 36px 0;
+}
+.scopeTitle {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-blue);
+  margin: 0 0 16px 0;
+}
+.scopeTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 36px 0;
+}
+.scopeRow {
+  border-bottom: 1px solid #eaeaea;
+}
+.scopeRow td {
+  padding: 14px 0;
+  font-size: 15px;
+  color: var(--ink-gray);
+}
+.itemLabel {
+  max-width: 420px;
+}
+.itemValue {
+  text-align: right;
+  font-weight: 700;
+  color: var(--brand-blue);
+  white-space: nowrap;
+}
+.totalRow td {
+  padding: 18px 0 0 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink-gray);
+}
+.totalRow .itemValue {
+  color: var(--panel-dark);
+}
+.footer {
+  margin-top: auto;
+  background: var(--panel-dark);
+  color: var(--white);
+  padding: 32px 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-end;
+}
+.contactLine {
+  font-size: 13px;
+  color: var(--white);
+  opacity: 0.9;
+}
+.cpvRowWrap {
+  padding: 20px 64px 32px 64px;
+}

@@ -1,0 +1,18 @@
+/*
+  Tokens de marca — Ministerio de Defensa Nacional.
+  Fuente: página 75 del manual (Marca.png). Solo --brand-blue tiene hex oficial confirmado;
+  el resto (gris, dorado, tipografía) son ESTIMADOS hasta que se suban más páginas del manual.
+  Ver design system en Claude Design: "Ministerio de Defensa Nacional - Design System".
+*/
+:root {
+  --brand-blue: #3c87b4;
+  --ink-gray: #414042;
+  --panel-dark: #3f3f3f;
+  --accent-gold: #c9a227;
+  --white: #ffffff;
+
+  --font-display: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-body: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --weight-bold: 700;
+  --weight-regular: 400;
+}

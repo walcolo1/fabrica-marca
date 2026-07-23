@@ -1,0 +1,61 @@
+.canvas {
+  width: 1200px;
+  height: 628px;
+  background: var(--brand-blue);
+  font-family: var(--font-body);
+  color: var(--white);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 52px 64px 44px 64px;
+}
+.watermark {
+  position: absolute;
+  right: -120px;
+  bottom: -120px;
+  width: 520px;
+  height: 520px;
+  opacity: 0.14;
+}
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.goldRule {
+  width: 64px;
+  height: 5px;
+}
+.mainBlock {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+.kicker {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin: 0 0 16px 0;
+}
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  color: var(--white);
+  text-wrap: pretty;
+}
+.bottomRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}

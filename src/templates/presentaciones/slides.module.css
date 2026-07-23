@@ -1,0 +1,246 @@
+.slideBase {
+  width: 1920px;
+  height: 1080px;
+  font-family: var(--font-body);
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Portada */
+.portada {
+  composes: slideBase;
+  background: var(--brand-blue);
+  color: var(--white);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 100px 120px 80px 120px;
+}
+.portadaWatermark {
+  position: absolute;
+  right: -140px;
+  bottom: -140px;
+  width: 760px;
+  height: 760px;
+  opacity: 0.5;
+}
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.goldRule96 {
+  width: 96px;
+  height: 6px;
+}
+.mainBlock {
+  position: relative;
+  z-index: 1;
+  max-width: 1400px;
+}
+.kicker {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  margin: 0 0 22px 0;
+}
+.title {
+  font-size: 104px;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 40px 0;
+  color: var(--white);
+  text-wrap: pretty;
+}
+.subtitle {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.35;
+  color: var(--white);
+  opacity: 0.92;
+  max-width: 1200px;
+  margin: 0;
+}
+.bottomRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.metaBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.metaLine {
+  font-size: 26px;
+  color: var(--white);
+  opacity: 0.85;
+}
+
+/* Agenda */
+.agenda {
+  composes: slideBase;
+  background: var(--white);
+  color: var(--ink-gray);
+  padding: 100px 120px 80px 120px;
+}
+.agendaTitle {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 52px 0;
+  color: var(--ink-gray);
+}
+.agendaList {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  flex: 1;
+}
+.agendaItem {
+  display: flex;
+  align-items: baseline;
+  gap: 32px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #eaeaea;
+}
+.agendaNum {
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--brand-blue);
+  min-width: 64px;
+}
+.agendaText {
+  font-size: 34px;
+  font-weight: 400;
+  color: var(--ink-gray);
+}
+
+/* Contenido */
+.contenido {
+  composes: slideBase;
+  background: var(--white);
+  color: var(--ink-gray);
+  padding: 90px 120px 80px 120px;
+}
+.contenidoKicker {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-blue);
+}
+.contenidoTitle {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 44px 0;
+  color: var(--ink-gray);
+}
+.contentRow {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 72px;
+  align-items: center;
+}
+.pointList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pointItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.pointDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--brand-blue);
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+.pointText {
+  font-size: 30px;
+  line-height: 1.4;
+  color: var(--ink-gray);
+}
+.contentImg {
+  height: 600px;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* Cierre */
+.cierre {
+  composes: slideBase;
+  background: var(--brand-blue);
+  color: var(--white);
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 160px 80px 160px;
+}
+.cierreWatermark {
+  position: absolute;
+  right: -140px;
+  top: -140px;
+  width: 760px;
+  height: 760px;
+  opacity: 0.5;
+}
+.cierreWordmark {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 64px;
+}
+.cierreGoldRule {
+  width: 96px;
+  height: 6px;
+  margin: 0 auto 36px auto;
+  position: relative;
+  z-index: 1;
+}
+.cierreTitle {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 36px 0;
+  max-width: 1400px;
+  color: var(--white);
+  text-wrap: pretty;
+  position: relative;
+  z-index: 1;
+}
+.cierreSubtitle {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.9;
+  max-width: 1200px;
+  margin: 0 0 56px 0;
+  position: relative;
+  z-index: 1;
+}
+.contactRow {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+.contactLine {
+  font-size: 24px;
+  color: var(--white);
+  opacity: 0.85;
+}
